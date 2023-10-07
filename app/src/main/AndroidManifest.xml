@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="geva.oren.android_kotlin_metronome">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <application
         android:allowBackup="true"
@@ -12,7 +11,9 @@
         <service
             android:name="geva.oren.android_kotlin_metronome.services.MetronomeService"
             android:enabled="true"
-            android:exported="false"></service>
+            android:exported="false">
+
+        </service>
 
         <activity
             android:name="geva.oren.android_kotlin_metronome.MainActivity"
